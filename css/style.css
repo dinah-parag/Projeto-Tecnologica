@@ -1,0 +1,87 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****** HEADER ******
+*/
+#header{
+    background-color: #0066CC;
+    padding: 15px;
+    text-align: center;
+}
+
+#Logo, #menu {
+    padding: 10px;
+}
+
+#header a:Link, #header a:visited{
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #0066CC;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.white{
+    color:#FFFFFF;   
+}
+
+/*
+****** CONTENT ******
+*/
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    text-align: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid #0066CC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*
+****** Right SIDE ******
+*/
+
+#right-side{
+    width: 240px;
+    float: right;
+}
+
+#content-right{
+    background: #FFFFFF;
+    padding: 10px;
+    margin: 20px;
+}
+
+.posts-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #CCCCCC;
+
+}
